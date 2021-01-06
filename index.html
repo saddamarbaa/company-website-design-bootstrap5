@@ -21,41 +21,37 @@
       <!-- 2 Product in Small Screen  12/2 = 6 -->
       <!-- 1 Product in Eextra Small(mobile) screen 12/12 = 1 -->
 
-      <div class="col-lg-6 col-md-6 col-sm-12  ">
-        <div class="os">this div will be showthis div will be showthis showthis div will be showthis div will showthis
-          div will be showthis div will showthis div will be showthis div will showthis div will be showthis div
-          willdivbr
-          <br>
-          showthis div will be showthis div will
-          showthis div will be showthis div will
-          showthis div will be showthis div will
-          showthis div will be showthis div will
-          will be show #2
-        </div>
-      </div>
-      <div class="col-lg-6  col-md-6 col-sm-12">
-        <div class="os">Product #2</div>
-      </div>
-      <div class="col-lg-6 col-md-6 col-sm-12  ">
-        <div class="oss">this div will be show</div>
-      </div>
-      <div class="col-lg-6 col-md-6 col-sm-12 ">
-        <div class="os">#3</div>
-      </div>
-
-      <div class="col-lg-6 col-sm-12">
-        <div class="os">Product #1</div>
-      </div>
-      <div class="col-lg-6 col-sm-12">
-        <div class="os">Product #2</div>
-      </div>
-      <div class="col-lg-6 col-sm-12">
+      <div class="col-lg-4 ">
         <div class="os">Product #3</div>
       </div>
-      <div class="col-lg-6 col-sm-12 d-none d-sm-block">
-        <div class="os"> Hide</div>
+      <div class="col-lg-8 order-first ">
+        <div class="os">Product #3</div>
       </div>
     </div>
+
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          First in DOM, no order applied
+        </div>
+        <div class="col order-5">
+          Second in DOM, with a larger order
+        </div>
+        <div class="col order-1">
+          Third in DOM, with an order of 1
+        </div>
+        <div class="col order-3">
+          Third in DOM, with an order of 3
+        </div>
+        <div class="col order-4">
+          Third in DOM, with an order of
+        </div>
+        <div class="col order-2">
+          Third in DOM, with an order of 543
+        </div>
+      </div>
+    </div>
+
 
     <!-- Bootstrap Js File -->
     <script src="js/bootstrap.min.js"></script>
