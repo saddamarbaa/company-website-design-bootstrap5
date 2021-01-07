@@ -4,6 +4,7 @@
   --white: #fff;
   --dark: #212529;
   --dark2: #bbb;
+  --greyE: #eee;
 }
 
 body {
@@ -73,11 +74,24 @@ body {
 /********** Start About Me Section **********/
 
 .about {
-  padding-top: 40px;
-  padding-bottom: 40px;
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
 
-.about h2 span {
+.about h1 {
+  font-weight: bold;
+  font-size: 2rem;
+}
+
+.about h1 span {
   color: var(--red);
 }
 /********** End About me Section **********/
+
+/********** Start Features Section **********/
+.features {
+  background-color: var(--greyE);
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+/********** End Features Section **********/
