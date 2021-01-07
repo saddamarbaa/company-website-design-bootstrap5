@@ -131,9 +131,12 @@ body {
 }
 
 .testimonial h2 {
-  margin-bottom: 20px;
+  margin-bottom: 50px;
 }
 
+.testimonial h5 {
+  margin-bottom: 20px;
+}
 .testimonial p {
   line-height: 2em;
 }
