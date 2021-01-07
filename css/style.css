@@ -1,3 +1,4 @@
+/********** Base styles **********/
 :root {
   --red: #e41b17;
   --white: #fff;
@@ -5,7 +6,14 @@
   --dark2: #bbb;
 }
 
-/* navbar-brand */
+body {
+  padding-top: 90px;
+}
+
+/********** Start Overwriting Bootsstrap **********/
+
+/********** Main NavBar **********/
+
 .navbar-brand {
   font-size: 1.3rem;
 }
@@ -15,6 +23,7 @@
 }
 
 /* navbar-toggler */
+
 .navbar-toggler {
   margin-top: 0.2rem;
   margin-bottom: 0.2rem;
@@ -57,3 +66,5 @@
   color: var(--white);
   padding-left: 25px;
 }
+
+/********** End Overwriting Bootsstrap **********/
