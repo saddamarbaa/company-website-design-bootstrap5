@@ -10,7 +10,7 @@
 
 body {
   padding-top: 90px;
-  height: 2500px;
+  height: 3500px; /* will be remove */
 }
 
 /********** Start Overwriting Bootsstrap **********/
@@ -87,6 +87,11 @@ body {
 .about h1 span {
   color: var(--red);
 }
+
+.h1 {
+  font-weight: bold;
+  font-size: 2rem;
+}
 /********** End About me Section **********/
 
 /********** Start Features Section **********/
@@ -115,3 +120,19 @@ body {
   color: var(--grey6);
 }
 /********** End Features Section **********/
+
+/********** Start Testimonial Section **********/
+
+.testimonial {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.testimonial h2 {
+  margin-bottom: 20px;
+}
+
+.testimonial p {
+  line-height: 2em;
+}
+/********** End Testimonial Section **********/
