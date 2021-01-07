@@ -5,6 +5,7 @@
   --dark: #212529;
   --dark2: #bbb;
   --greyE: #eee;
+  --grey8: #666;
 }
 
 body {
@@ -89,9 +90,28 @@ body {
 /********** End About me Section **********/
 
 /********** Start Features Section **********/
+
 .features {
   background-color: var(--greyE);
   padding-top: 50px;
   padding-bottom: 50px;
+}
+
+.features .feat {
+  margin-bottom: 30px;
+}
+
+.features p {
+  line-height: 2rem;
+  text-align: center;
+}
+
+.features h2 {
+  margin-bottom: 50px;
+}
+
+.features .bi {
+  margin-bottom: 10px;
+  color: var(--grey6);
 }
 /********** End Features Section **********/
