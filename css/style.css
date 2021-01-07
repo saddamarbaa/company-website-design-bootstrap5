@@ -10,7 +10,7 @@
 
 body {
   padding-top: 90px;
-  height: 3500px; /* will be remove */
+  height: 3000px; /* will be remove */
 }
 
 /********** Start Overwriting Bootsstrap **********/
@@ -82,6 +82,7 @@ body {
 .about h1 {
   font-weight: bold;
   font-size: 2rem;
+  margin-bottom: 20px;
 }
 
 .about h1 span {
@@ -91,6 +92,7 @@ body {
 .h1 {
   font-weight: bold;
   font-size: 2rem;
+  margin-bottom: 20px;
 }
 /********** End About me Section **********/
 
@@ -134,5 +136,9 @@ body {
 
 .testimonial p {
   line-height: 2em;
+}
+.testimonial span {
+  font-weight: bold;
+  color: var(--red);
 }
 /********** End Testimonial Section **********/
