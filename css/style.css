@@ -8,6 +8,7 @@
 
 body {
   padding-top: 90px;
+  height: 2500px;
 }
 
 /********** Start Overwriting Bootsstrap **********/
@@ -68,3 +69,15 @@ body {
 }
 
 /********** End Overwriting Bootsstrap **********/
+
+/********** Start About Me Section **********/
+
+.about {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.about h2 span {
+  color: var(--red);
+}
+/********** End About me Section **********/
