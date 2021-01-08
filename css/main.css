@@ -194,6 +194,15 @@ body {
   color: var(--white);
   min-height: 500px;
 }
+
+.our-team .person {
+  margin-bottom: 25px;
+}
+
+.our-team img {
+  width: 270px;
+  height: 180px;
+}
 /********** End Our Team Section **********/
 
 /********** Start creating My own Framework for some repeated styles **********/
