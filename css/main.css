@@ -12,6 +12,7 @@
   --white: #fff;
   --dark: #212529;
   --dark2: #bbb;
+  --greyd: #ddd;
   --greyE: #eee;
   --grey8: #666;
 }
@@ -135,6 +136,35 @@ body {
   color: var(--red);
 }
 /********** End Testimonial Section **********/
+
+.price-table {
+  background-color: var(--greyE);
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.price-table .price-box {
+  background-color: var(--white);
+  padding: 10px;
+  /* border: 1px solid var(--greyd); */
+}
+
+.price-table h2 {
+  /* margin: 5px 0 15px; */
+}
+
+.price-table p {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #666;
+}
+
+.price-table {
+  margin-bottom: 10px;
+}
+/********** Start Pricing Table Section **********/
+
+/********** End Pricing Table Section **********/
 
 /********** Start creating My own Framework for some repeated styles **********/
 
