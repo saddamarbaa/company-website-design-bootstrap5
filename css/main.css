@@ -214,6 +214,16 @@ body {
 
 /********** End Our Team Section **********/
 
+/********** Start Subscribe Section **********/
+
+.subscribe {
+  background-color: var(--greyE);
+}
+.subscribe {
+  margin-bottom: 20px;
+}
+/********** End Subscribe Section **********/
+
 /********** Start Creating My Own Framework for Some Repeated Styles **********/
 
 .padding-top-AND-padding-bottom {
