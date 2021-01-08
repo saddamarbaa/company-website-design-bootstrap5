@@ -14,7 +14,8 @@
   --dark2: #bbb;
   --greyd: #ddd;
   --greyE: #eee;
-  --grey8: #666;
+  --grey6: #666;
+  --light: #f3f3f3;
 }
 
 body {
@@ -137,32 +138,46 @@ body {
 }
 /********** End Testimonial Section **********/
 
+/********** Start Pricing Table Section **********/
+
 .price-table {
   background-color: var(--greyE);
   padding-top: 50px;
   padding-bottom: 50px;
+  margin-bottom: 10px;
 }
 
 .price-table .price-box {
   background-color: var(--white);
   padding: 10px;
-  /* border: 1px solid var(--greyd); */
-}
-
-.price-table h2 {
-  /* margin: 5px 0 15px; */
+  border: 1px solid var(--greyd);
+  margin-bottom: 15px;
 }
 
 .price-table p {
-  font-size: 1.2rem;
+  font-size: 1.3rem;
   font-weight: bold;
-  color: #666;
+  width: 100px;
+  height: 100px;
+  line-height: 100px;
+  background-color: var(--light);
+  border-radius: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  color: var(--grey6);
+  transition-duration: 0.7s;
+  border: 2px solid var(--white);
 }
 
-.price-table {
-  margin-bottom: 10px;
+.price-table .price-box:hover p {
+  transform: rotate(360deg);
+  border: 2px solid #dfdfdf;
 }
-/********** Start Pricing Table Section **********/
+
+.price-table ul li {
+  border: none; /* this one to Overwriting Bootsstrap */
+}
 
 /********** End Pricing Table Section **********/
 
