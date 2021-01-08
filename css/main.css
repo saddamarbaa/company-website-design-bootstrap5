@@ -218,10 +218,18 @@ body {
 
 .subscribe {
   background-color: var(--greyE);
+  padding-top: 50px;
+  padding-bottom: 70px;
 }
+
 .subscribe {
   margin-bottom: 20px;
 }
+
+.subscribe p {
+  margin-bottom: 30px;
+}
+
 /********** End Subscribe Section **********/
 
 /********** Start Creating My Own Framework for Some Repeated Styles **********/
