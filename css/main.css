@@ -1,4 +1,12 @@
+/* ==========================================
+   main.css
+   These are the final styles for the project.
+   Author:   Saddam Arbaa
+   Website:  TODO
+			========================================== */
+
 /********** Base styles **********/
+
 :root {
   --red: #e41b17;
   --white: #fff;
@@ -10,7 +18,7 @@
 
 body {
   padding-top: 90px;
-  height: 3000px; /* will be remove */
+  height: 2500px; /* will be remove */
 }
 
 /********** Start Overwriting Bootsstrap **********/
@@ -33,6 +41,7 @@ body {
 }
 
 /* Active Link */
+
 .navbar-dark .navbar-nav .show > .nav-link,
 .navbar-dark .navbar-nav .nav-link.active {
   background-color: var(--red);
@@ -74,14 +83,9 @@ body {
 
 /********** Start About Me Section **********/
 
-.about {
-  padding-top: 50px;
-  padding-bottom: 50px;
-}
-
 .about h1 {
   font-weight: bold;
-  font-size: 2rem;
+  font-size: 1.5rem;
   margin-bottom: 20px;
 }
 
@@ -89,19 +93,12 @@ body {
   color: var(--red);
 }
 
-.h1 {
-  font-weight: bold;
-  font-size: 2rem;
-  margin-bottom: 20px;
-}
 /********** End About me Section **********/
 
 /********** Start Features Section **********/
 
 .features {
   background-color: var(--greyE);
-  padding-top: 50px;
-  padding-bottom: 50px;
 }
 
 .features .feat {
@@ -111,10 +108,6 @@ body {
 .features p {
   line-height: 2rem;
   text-align: center;
-}
-
-.features h2 {
-  margin-bottom: 50px;
 }
 
 .features .bi {
@@ -130,18 +123,38 @@ body {
   padding-bottom: 50px;
 }
 
-.testimonial h2 {
-  margin-bottom: 50px;
-}
-
 .testimonial h5 {
   margin-bottom: 20px;
 }
 .testimonial p {
   line-height: 2em;
 }
+
 .testimonial span {
   font-weight: bold;
   color: var(--red);
 }
 /********** End Testimonial Section **********/
+
+/********** Start creating My own Framework for some repeated styles **********/
+
+.padding-top-AND-padding-bottom {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.margin-bottom20 {
+  margin-bottom: 20;
+}
+
+.h1 {
+  font-weight: bold;
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+}
+
+.margin-bottom50 {
+  margin-bottom: 50px;
+}
+
+/********** End Framework **********/
