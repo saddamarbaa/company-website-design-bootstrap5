@@ -11,11 +11,13 @@
   --red: #e41b17;
   --white: #fff;
   --dark: #212529;
+  --darkAlp: rgba(2, 2, 2, 0.8);
   --dark2: #bbb;
   --greyd: #ddd;
   --greyE: #eee;
   --grey6: #666;
   --light: #f3f3f3;
+  --lightB: #dfdfdf;
 }
 
 body {
@@ -172,7 +174,7 @@ body {
 
 .price-table .price-box:hover p {
   transform: rotate(360deg);
-  border: 2px solid #dfdfdf;
+  border: 2px solid var(--lightB);
 }
 
 .price-table ul li {
@@ -190,7 +192,7 @@ body {
 }
 
 .our-team .team {
-  background: rgba(2, 2, 2, 0.8);
+  background: var(--darkAlp);
   color: var(--white);
   min-height: 500px;
 }
@@ -202,6 +204,10 @@ body {
 .our-team img {
   width: 270px;
   height: 180px;
+}
+
+.fab {
+  padding-left: 5px;
 }
 /********** End Our Team Section **********/
 
