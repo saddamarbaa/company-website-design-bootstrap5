@@ -20,7 +20,7 @@
 
 body {
   padding-top: 90px;
-  height: 2500px; /* will be remove */
+  height: 4500px; /* will be remove */
 }
 
 /********** Start Overwriting Bootsstrap **********/
@@ -180,6 +180,21 @@ body {
 }
 
 /********** End Pricing Table Section **********/
+
+/********** Start Our Team Section **********/
+
+.our-team {
+  width: 100%;
+  min-height: 500px;
+  background: url(../images/3333.jpg) no-repeat center center/cover;
+}
+
+.our-team .team {
+  background: rgba(2, 2, 2, 0.8);
+  color: var(--white);
+  min-height: 500px;
+}
+/********** End Our Team Section **********/
 
 /********** Start creating My own Framework for some repeated styles **********/
 
