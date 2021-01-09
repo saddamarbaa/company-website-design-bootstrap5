@@ -269,6 +269,39 @@ body {
 
 /********** End Statistics Section **********/
 
+/********** Start Our Skills Section **********/
+.our-skills {
+  padding-top: 50px;
+  padding-bottom: 70px;
+}
+
+.our-skills h3 {
+  font-weight: bold;
+  font-size: 1.2rem;
+  margin-top: 0;
+}
+
+.our-skills .progress {
+  margin-bottom: 1rem;
+  height: 36px;
+  line-height: 36;
+  font-size: 0.9rem;
+  font-weight: bold;
+  text-indent: 10px;
+}
+
+/**********Our Skills SectionMedia Queries **********/
+
+/* Small Screen Rules  */
+
+@media (max-width: 768px) {
+  .our-skills h3 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+}
+/********** End Our Skills Section **********/
+
 /********** Start Creating My Own Framework for Some Repeated Styles **********/
 
 .padding-top-AND-padding-bottom {
