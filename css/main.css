@@ -13,6 +13,7 @@
   --dark: #212529;
   --darkAlp: rgba(2, 2, 2, 0.7);
   --dark2: #bbb;
+  --darkForm: rgba(82, 78, 78, 0.8);
   --greyd: #ddd;
   --greyE: #eee;
   --grey6: #666;
@@ -316,7 +317,27 @@ body {
   min-height: 300px;
   background-color: rgba(9, 9, 9, 0.6);
   color: var(--light);
+}
+
+.contact-us p {
+  margin-bottom: 40px;
   font-size: 1.5rem;
+}
+
+.contact-us textarea {
+  width: 100%;
+  margin-bottom: 10px;
+  height: 125px;
+  resize: none;
+}
+
+.contact-us input[type="text"],
+.contact-us input[type="email"],
+.contact-us input[type="tel"],
+.contact-us textarea {
+  background-color: var(--darkForm);
+  color: var(--light);
+  border: none;
 }
 
 /********** End Contact Us Section **********/
