@@ -423,6 +423,10 @@ body {
   height: 50px;
 }
 
+.footer .article img {
+  height: 100px;
+  margin-right: 5px;
+}
 .footer a {
   color: var(--greyA);
 }
