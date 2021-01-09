@@ -23,7 +23,7 @@
 
 body {
   padding-top: 90px;
-  height: 4500px; /* will be remove */
+  height: 5000px; /* will be remove */
 }
 
 /********** Start Overwriting Bootsstrap **********/
@@ -270,6 +270,7 @@ body {
 /********** End Statistics Section **********/
 
 /********** Start Our Skills Section **********/
+
 .our-skills {
   padding-top: 50px;
   padding-bottom: 70px;
@@ -300,7 +301,25 @@ body {
     margin-bottom: 20px;
   }
 }
+
 /********** End Our Skills Section **********/
+
+/********** Start Contact Us Section **********/
+
+.contact-us {
+  width: 100%;
+  min-height: 300px;
+  background: url(../images/unnamed.jpg) no-repeat center center/cover;
+}
+
+.contact-us .fields {
+  min-height: 300px;
+  background-color: rgba(9, 9, 9, 0.6);
+  color: var(--light);
+  font-size: 1.5rem;
+}
+
+/********** End Contact Us Section **********/
 
 /********** Start Creating My Own Framework for Some Repeated Styles **********/
 
