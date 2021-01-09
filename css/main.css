@@ -327,8 +327,8 @@ body {
 .contact-us textarea {
   width: 100%;
   margin-bottom: 10px;
-  height: 125px;
-  resize: none;
+  height: 108px;
+  resize: nones;
 }
 
 .contact-us input[type="text"],
