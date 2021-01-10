@@ -8,21 +8,31 @@
     margin-bottom: 20px;
     font-weight: bold;
   }
+
+  /* Links */
+
+  .navbar-dark .navbar-nav .show > .nav-link,
+  .navbar-dark .navbar-nav .nav-link.active {
+    padding: 8px !important;
+  }
 }
 
 /**********  Mobile and tablet Rules (If the screen size is 678px or larger ) **********/
 
 @media (min-width: 768px) and (max-width: 991px) {
+  /* For future work */
 }
 
 /********** Medium Screen Rules (If the screen size is  992px or larger ) **********/
 
 @media (min-width: 992px) and (max-width: 1199px) {
+  /* For future work */
 }
 
 /**********  Large Screen Rules (If the screen size is 1200px or larger ) **********/
 
 @media (min-width: 1200px) {
+  /* For future work */
 }
 
 /********** End Media Queries **********/
