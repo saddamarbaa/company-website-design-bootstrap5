@@ -3,6 +3,11 @@
 /********** Small Screen Rules (If the screen size is 677px or smaller ) **********/
 
 @media (max-width: 767px) {
+  .our-skills h3 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-weight: bold;
+  }
 }
 
 /**********  Mobile and tablet Rules (If the screen size is 678px or larger ) **********/
