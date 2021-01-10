@@ -12,6 +12,7 @@
   --white: #fff;
   --dark: #212529;
   --darkAlp: rgba(2, 2, 2, 0.7);
+  --darkAlp2: rgba(0, 0, 0, 0.1);
   --dark2: #bbb;
   --darkForm: rgba(82, 78, 78, 0.8);
   --darkcot: rgba(9, 9, 9, 0.6);
@@ -19,6 +20,8 @@
   --greyE: #eee;
   --grey6: #666;
   --grey3: #333;
+  --grey4: #444;
+  --grey1: #111;
   --greyA: #aaa;
   --light: #f3f3f3;
   --lightB: #dfdfdf;
@@ -32,7 +35,6 @@
 
 body {
   padding-top: 90px;
-  height: 6000px; /* will be remove */
 }
 
 /********** Start Overwriting Bootsstrap **********/
@@ -380,19 +382,22 @@ body {
 /********** Start Footer Section **********/
 
 .footer {
-  background-color: var(--grey3);
+  background-color: var(--grey1);
   color: var(--greyA);
+  padding-top: 30px;
+  font-size: 1.1rem;
 }
 
 .footer h2 {
-  color: var(--blueNice);
+  color: var(--light);
   letter-spacing: 1px;
-  margin: 30px 0 20px;
+
+  font-size: 1.5rem;
+  margin: 20px 0 40px !important;
 }
 
 .footer .three-columns {
   overflow: hidden;
-  padding: 5px 0;
 }
 
 .footer .three-columns li {
@@ -433,7 +438,9 @@ body {
   width: 160px;
   height: 140px;
   margin-right: 15px;
-  margin-bottom: 15px;
+  margin-bottom: 10px;
+  border: 1px solid var(--grey4);
+  background-color: var(--darkAlp2);
 }
 
 .footer a {
@@ -444,6 +451,16 @@ body {
   color: var(--white);
 }
 
+.footer .copyright {
+  background-color: var(--grey3);
+  padding: 20px 0;
+  margin-top: 30px;
+  font-size: 1.2rem;
+}
+
+.footer .copyright span {
+  color: var(--red);
+}
 /********** End Footer Section **********/
 
 /********** Start Creating My Own Framework for Some Repeated Styles **********/
