@@ -67,7 +67,7 @@ body {
   margin-bottom: 0.2rem;
 }
 
-/* Active Link */
+/* Links */
 
 .navbar-dark .navbar-nav .show > .nav-link,
 .navbar-dark .navbar-nav .nav-link.active {
@@ -112,7 +112,7 @@ body {
 
 .about h1 {
   font-weight: bold;
-  font-size: 1.6rem;
+  font-size: 1.7rem;
   margin-bottom: 20px;
 }
 
@@ -154,6 +154,7 @@ body {
 .testimonial h5 {
   margin-bottom: 20px;
 }
+
 .testimonial p {
   line-height: 2em;
 }
@@ -285,6 +286,7 @@ body {
   font-weight: bold;
   margin-bottom: 0;
 }
+
 .statistics span {
   font-size: 1.1rem;
 }
@@ -300,7 +302,7 @@ body {
 
 .our-skills h3 {
   font-weight: bold;
-  font-size: 1.2rem;
+  font-size: 1.3rem;
   margin-top: 0;
 }
 
@@ -403,7 +405,6 @@ body {
 .footer .three-columns li {
   width: 33.333%;
   float: left;
-
   padding-bottom: 24px;
 }
 
@@ -477,12 +478,16 @@ body {
 
 .h1 {
   font-weight: bold;
-  font-size: 1.5rem;
+  font-size: 1.6rem;
   margin-bottom: 20px;
 }
 
 .margin-bottom50 {
   margin-bottom: 50px;
+}
+
+.margin-bottom15 {
+  margin-bottom: 15px;
 }
 
 /********** End Framework **********/
