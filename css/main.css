@@ -124,7 +124,7 @@ body {
   color: var(--white);
   width: 200px;
   border: 4px solid var(--red);
-  display: none;
+  display: none; /* TODO with Javascript in Fututre */
 }
 
 .option-box .color-option ul li {
@@ -525,6 +525,10 @@ body {
 
 .margin-bottom15 {
   margin-bottom: 15px;
+}
+
+.displayShow {
+  display: block !important;
 }
 
 /********** End Framework **********/
