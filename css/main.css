@@ -22,6 +22,7 @@
   --grey3: #333;
   --grey4: #444;
   --grey1: #111;
+  --greye2: #272727;
   --greyA: #aaa;
   --light: #f3f3f3;
   --lightB: #dfdfdf;
@@ -464,6 +465,25 @@ body {
 }
 
 /********** End Footer Section **********/
+
+/********** Start Scroll To Up Section **********/
+
+#scroll-top {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  width: 50px;
+  height: 50px;
+  background-color: var(--greye2);
+  color: var(--greyd);
+  z-index: 99999;
+}
+
+#scroll-top:hover {
+  background-color: var(--grey4);
+}
+
+/********** End Scroll To Up Section **********/
 
 /********** Start Tool Box Section(TODO) **********/
 
