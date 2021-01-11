@@ -21,7 +21,7 @@ Click the link blow to see the [GitHub Pages]:
 
 
 
-## responsive on small mobile screens (About Page)
+## responsive on small mobile screens (Home Page)
 
 ![image](https://user-images.githubusercontent.com/51326421/104224589-ca7d9000-5477-11eb-8042-2a39cd023f93.png)
 
