@@ -1,6 +1,7 @@
 :root {
   --greyF: #f5f5f5;
   --greyE: #eee;
+  --grey3: #333;
 }
 
 a {
@@ -54,5 +55,10 @@ a {
 
 .about-ceo .ceo-p {
   margin-bottom: 50px;
+}
+
+.about-ceo .btn-danger {
+  background-color: var(--grey3);
+  border-color: var(--grey3);
 }
 /********** End About  Us Page **********/ ;
