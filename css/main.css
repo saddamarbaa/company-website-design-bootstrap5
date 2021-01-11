@@ -99,14 +99,6 @@ body {
 
 /********** End Overwriting Bootsstrap **********/
 
-/********** Start About Us Section **********/
-
-.about h1 {
-  margin-bottom: 20px;
-}
-
-/********** End About Us Section **********/
-
 /********** Start Features Section **********/
 
 .features {
@@ -130,10 +122,6 @@ body {
 /********** End Features Section **********/
 
 /********** Start Testimonial Section **********/
-
-.testimonial h5 {
-  margin-bottom: 20px;
-}
 
 .testimonial p {
   line-height: 2em;
@@ -200,10 +188,6 @@ body {
   min-height: 500px;
 }
 
-.our-team .person {
-  margin-bottom: 25px;
-}
-
 .our-team img {
   width: 270px;
   height: 180px;
@@ -219,10 +203,6 @@ body {
 
 .subscribe {
   background-color: var(--greyE);
-}
-
-.subscribe {
-  margin-bottom: 20px;
 }
 
 .subscribe p {
@@ -532,7 +512,7 @@ body {
 
 /********** End Framework **********/
 
-/********** Start Grouping Element With Main Background Color **********/
+/********** Start Grouping Element With The Same Style **********/
 
 .dropdown-menu a:hover,
 .navbar-dark .navbar-nav .show > .nav-link,
@@ -546,6 +526,13 @@ body {
 .testimonial span,
 .footer .copyright span {
   color: var(--red);
+}
+
+.about h1,
+.testimonial h5,
+.subscribe,
+.our-team .person {
+  margin-bottom: 20px;
 }
 
 .testimonial,
