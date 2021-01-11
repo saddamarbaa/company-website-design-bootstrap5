@@ -57,10 +57,6 @@ body {
   font-size: 1.3rem;
 }
 
-.navbar-brand span {
-  color: var(--red);
-}
-
 /* navbar-toggler */
 
 .navbar-toggler {
@@ -69,11 +65,6 @@ body {
 }
 
 /* Links */
-
-.navbar-dark .navbar-nav .show > .nav-link,
-.navbar-dark .navbar-nav .nav-link.active {
-  background-color: var(--red);
-}
 
 .navbar-dark .navbar-nav .nav-link {
   color: var(--dark2);
@@ -102,7 +93,6 @@ body {
 }
 
 .dropdown-menu a:hover {
-  background-color: var(--red);
   color: var(--white);
   padding-left: 25px;
 }
@@ -112,13 +102,7 @@ body {
 /********** Start About Us Section **********/
 
 .about h1 {
-  font-weight: bold;
-  font-size: 1.7rem;
   margin-bottom: 20px;
-}
-
-.about h1 span {
-  color: var(--red);
 }
 
 /********** End About Us Section **********/
@@ -147,11 +131,6 @@ body {
 
 /********** Start Testimonial Section **********/
 
-.testimonial {
-  padding-top: 50px;
-  padding-bottom: 50px;
-}
-
 .testimonial h5 {
   margin-bottom: 20px;
 }
@@ -162,7 +141,6 @@ body {
 
 .testimonial span {
   font-weight: bold;
-  color: var(--red);
 }
 
 /********** End Testimonial Section **********/
@@ -171,8 +149,6 @@ body {
 
 .price-table {
   background-color: var(--greyE);
-  padding-top: 50px;
-  padding-bottom: 50px;
   margin-bottom: 10px;
 }
 
@@ -243,8 +219,6 @@ body {
 
 .subscribe {
   background-color: var(--greyE);
-  padding-top: 50px;
-  padding-bottom: 70px;
 }
 
 .subscribe {
@@ -269,8 +243,6 @@ body {
   background-color: var(--darkAlp);
   min-height: 300px;
   color: var(--lighE);
-  padding-top: 40px;
-  padding-bottom: 70px;
 }
 
 .statistics .stats {
@@ -295,11 +267,6 @@ body {
 /********** End Statistics Section **********/
 
 /********** Start Our Skills Section **********/
-
-.our-skills {
-  padding-top: 50px;
-  padding-bottom: 70px;
-}
 
 .our-skills h3 {
   font-weight: bold;
@@ -394,7 +361,6 @@ body {
 .footer h2 {
   color: var(--light);
   letter-spacing: 1px;
-
   font-size: 1.5rem;
   margin: 20px 0 40px !important;
 }
@@ -460,10 +426,6 @@ body {
   font-size: 1.3rem;
 }
 
-.footer .copyright span {
-  color: var(--red);
-}
-
 /********** End Footer Section **********/
 
 /********** Start Scroll To Up Section **********/
@@ -481,6 +443,7 @@ body {
   color: var(--greyd);
   z-index: 99999;
   position: absolute;
+  cursor: pointer;
 }
 
 #scroll-top:hover {
@@ -518,12 +481,9 @@ body {
 
 /* TODO */
 /* display block when time come */
+
 .gear-check {
   display: none;
-}
-
-.option-box .first {
-  background-color: #e41b17;
 }
 
 .option-box .second {
@@ -559,13 +519,7 @@ body {
 }
 
 .h1 {
-  font-weight: bold;
-  font-size: 1.6rem;
-  margin-bottom: 20px;
-}
-
-.margin-bottom50 {
-  margin-bottom: 50px;
+  margin-bottom: 40px;
 }
 
 .margin-bottom15 {
@@ -577,3 +531,34 @@ body {
 }
 
 /********** End Framework **********/
+
+/********** Start Grouping Element With Main Background Color **********/
+
+.dropdown-menu a:hover,
+.navbar-dark .navbar-nav .show > .nav-link,
+.navbar-dark .navbar-nav .nav-link.active,
+.option-box .first {
+  background-color: var(--red);
+}
+
+.navbar-brand span,
+.about h1 span,
+.testimonial span,
+.footer .copyright span {
+  color: var(--red);
+}
+
+.testimonial,
+.price-table {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.subscribe,
+.our-skills,
+.statistics .data {
+  padding-top: 50px;
+  padding-bottom: 70px;
+}
+
+/********** End Grouping **********/
