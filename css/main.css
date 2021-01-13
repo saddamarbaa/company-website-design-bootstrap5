@@ -110,6 +110,13 @@ body {
   margin-bottom: 30px;
 }
 
+
+.section-heading
+{
+   font-size: 32px;
+    color: #ff9800;
+}
+
 p .paragraph {
     line-height: 1.5rem;
     text-align: center;
@@ -120,10 +127,9 @@ p .paragraph {
 }
 
 .features .bi {
-  margin-bottom: 10px;
-  color: var(--grey6);
+    margin-bottom: 10px;
+    color: #17bcd4;
 }
-
 /********** End Features Section **********/
 
 /********** Start Testimonial Section **********/
@@ -533,7 +539,7 @@ p .paragraph {
   color: #FF9800;
 }
 
-.about h1, .testimonial h5, .subscribe, .our-team .person {
+.about h1, .testimonial h5, .our-team {
     margin-bottom: 20px;
     font-size: 32px;
     color: #ff9800;
