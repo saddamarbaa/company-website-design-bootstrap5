@@ -66,12 +66,13 @@ body {
 
 /* Links */
 
-.navbar-dark .navbar-nav .nav-link {
-  color: var(--dark2);
-  padding: 1rem;
-  font-size: 1.1rem;
+.navbar-light .navbar-nav .nav-link {
+    color: rgb(70 69 68);
+    font-size: 16px !important;
 }
-
+.navbar-light .navbar-brand {
+    color: #00BCD4;
+}
 /* link on hover */
 
 .navbar-dark .navbar-nav .nav-link:hover {
@@ -529,14 +530,13 @@ body {
 .about h1 span,
 .testimonial span,
 .footer .copyright span {
-  color: var(--red);
+  color: #FF9800;
 }
 
-.about h1,
-.testimonial h5,
-.subscribe,
-.our-team .person {
-  margin-bottom: 20px;
+.about h1, .testimonial h5, .subscribe, .our-team .person {
+    margin-bottom: 20px;
+    font-size: 32px;
+    color: #ff9800;
 }
 
 .testimonial,
