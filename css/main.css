@@ -110,7 +110,7 @@ body {
   margin-bottom: 30px;
 }
 
-.features p {
+p .features {
     line-height: 1.5rem;
     text-align: center;
     font-size: 15px;
