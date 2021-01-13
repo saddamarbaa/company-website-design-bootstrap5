@@ -98,6 +98,15 @@ body {
   padding-left: 25px;
 }
 
+@media (min-width: 1200px)
+h3, .h3 {
+    font-size: 24px;
+}
+p {
+    margin-top: 1.5rem;
+    margin-bottom: 1rem;
+    font-size: 18px;
+}
 /********** End Overwriting Bootsstrap **********/
 
 /********** Start Features Section **********/
@@ -182,7 +191,10 @@ p .paragraph {
 .price-table ul li {
   border: none; /* this one to Overwriting Bootsstrap */
 }
-
+li.list-group-item {
+    font-size: 17px;
+    margin: 0.1rem 0;
+}
 /********** End Pricing Table Section **********/
 
 /********** Start Our Team Section **********/
@@ -204,10 +216,13 @@ p .paragraph {
   height: 180px;
 }
 
-.fab {
-  padding-left: 5px;
-}
 
+.fab {
+    padding-left: 5px;
+    color: #ff9800;
+    font-size: 17px;
+    cursor: pointer;
+}
 /********** End Our Team Section **********/
 
 /********** Start Subscribe Section **********/
@@ -510,9 +525,10 @@ p .paragraph {
 }
 
 .h1 {
-  margin-bottom: 40px;
+    margin-bottom: 40px;
+    color: #00c2df;
+    font-size: 32px;
 }
-
 .margin-bottom15 {
   margin-bottom: 15px;
 }
@@ -542,7 +558,7 @@ p .paragraph {
 .about h1, .testimonial h5, .our-team {
     margin-bottom: 20px;
     font-size: 32px;
-    color: #ff9800;
+    color: #00c9e5;
 }
 
 .testimonial,
